@@ -11,75 +11,104 @@
             <header>
                 <!--Section Logo-->
                 <div class="logo"><img src="img/logo.png" /></div>
-                <h1>Find yourself a motivation !</h1>
+                <h1>Amitié Franco-Malgache de Lorraine</h1>
                 <!--Menu de navigation-->
                 <nav>
                     <ul>
                         <li><a href="" class="selected">Accueil</a></li>
+                        <li><a href="pages/asso.html">L'association</a></li>
+                        <li><a href="pages/events.html">Évènements</a></li>
                         <li><a href="pages/photos.html">Photos</a></li>
                         <li><a href="pages/videos.html">Vidéos</a></li>
                         <li><a href="pages/contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </header>
-            <!--Section Importante-->
+            <!--Section Corps de page -->
             <section>
-                <!--Quotes Section-->
+                <!-- Section des actualités -->
                 <article>
                     <div class="offer">
-                        <h2>Motivational Quotes For You :</h2>
-                        <div class="quotes">
-                            <q>Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.</q>
-                            <blockquote>- Albert Einstein</blockquote>
+                        <h2>Dernières actualités</h2>
+                        <!-- Contenu de l'actualités animées en slideshow -->
+                        <div class="slideshow-container">
+
+                         <!-- Les images avec largeur 100% et légende -->
+                         <div class="mySlides fade">
+                           <div class="numbertext">1 / 4</div>
+                           <img src="img/slide1.jpg" style="width:100%" />
+                           <div class="text">Caption One</div>
+                         </div>
+
+                         <div class="mySlides fade">
+                           <div class="numbertext">2 / 4</div>
+                           <img src="img/slide2.jpg" style="width:100%" />
+                           <div class="text">Caption Two</div>
+                         </div>
+
+                         <div class="mySlides fade">
+                           <div class="numbertext">3 / 4</div>
+                           <img src="img/slide3.jpg" style="width:100%" />
+                           <div class="text">Caption Three</div>
+                         </div>
+
+                         <div class="mySlides fade">
+                           <div class="numbertext">4 / 4</div>
+                           <img src="img/slide4.jpg" style="width:100%" />
+                           <div class="text">Caption Four</div>
+                         </div>
+
+                         <!-- Les boutons prev et next -->
+                         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                         <a class="next" onclick="plusSlides(1)">&#10095;</a>
                         </div>
-                        <div class="quotes">
-                            <q>Defeat is not the worst failure. Not to have tried is the true failure.</q>
-                            <blockquote>- George E.Woodbury</blockquote>
-                        </div>
-                        <div class="quotes">
-                            <q>The people who are crazy enough to think they can change the world are the ones who do.</q>
-                            <blockquote>- Steve Jobs</blockquote>
+                        <br>
+
+                        <!-- Les points/cercles -->
+                        <div style="text-align:center">
+                         <span class="dot" onclick="currentSlide(1)"></span>
+                         <span class="dot" onclick="currentSlide(2)"></span>
+                         <span class="dot" onclick="currentSlide(3)"></span>
+                         <span class="dot" onclick="currentSlide(4)"></span>
                         </div>
                     </div>
+
+                    <!-- Insertion du script pour l'animation -->
+                    <script src="script/main.js"></script>
+
+                    <!-- Section des articles -->
+                    <h2>Les derniers évènements</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna ligula, auctor id feugiat ut, lobortis ut mi. Morbi et consequat metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis iaculis elit ac tortor rhoncus vulputate. Proin iaculis, elit et placerat elementum, lectus est eleifend eros, non scelerisque nunc dui et ipsum. Donec rhoncus neque sit amet urna dignissim, vitae porta sem tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla commodo eu purus sed egestas. Vestibulum eget elit lectus. Nunc blandit ut tellus auctor hendrerit. Quisque eleifend ex vitae nulla gravida, a eleifend risus semper. Vestibulum eros libero, vulputate sit amet bibendum tincidunt, dictum quis nisl. Nam eget nulla lacus. Maecenas ac ante blandit ex mollis luctus. </p>
                 </article>
-                <!--Speech Section-->
-                <div class="audio">
-                    <h2>Motivational Speech For You :</h2>
-                    <p>Steve Jobs - Motivational Speech</p>
-                    <audio controls src="audio/speech.mp3"></audio>
-                </div>
-                <!--Image Section -->
-                <div class="wall">
-                    <h2 class="caption">Motivational Wallpapers For You :</h2>
-                    <img src="img/today.jpg" />
-                    <img src="img/be.jpg" />
-                    <p><a href="pages/wallpapers.html" class="arrow">&rarr; More Wallpapers</a></p>
-                </div>
+
+                <!-- Autres Informations -->
             </section>
-            <!--Footer Section-->
+            <!-- Section Pied de page -->
             <footer>
                 <div class="footer_links">
                     <div class="copyright column">
-				                  <p>Open Days 2016 - All rights reserved.</p>
+				                  <p>AFM Lorraine 2020 - Tous droits réservés.</p>
 			              </div>
 
                     <div class="about columns">
-                        <h3 class="columns_title">About</h3>
-                        <ul><li><a href="pages/about.html">Our website</a></li></ul>
+                        <h3 class="columns_title">À propos de</h3>
+                        <ul><li><a href="pages/about.html">Notre association</a></li></ul>
                     </div>
                     <div class="contact columns">
-                        <h3 class="columns_title">Contact Us</h3>
+                        <h3 class="columns_title">Nous contacter</h3>
                         <ul>
-                            <li><a href="https://www.facebook.com/ash.red.100" class="facebook">Facebook</a></li>
-                            <li><a href="mailto:elkodiko@gmail.com" class="google">Google</a</li>
+                            <li><a href="https://www.facebook.com/profile.php?id=100011005027846" class="facebook">Facebook</a></li>
+                            <li><a href="mailto:afmlorraine@gmail.com" class="google">Google</a</li>
                         </ul>
                     </div>
+                    <!--
                     <div class="thank columns">
                         <h3 class="columns">Thanks to :</h3>
                         <p>Almighty God</p>
                         <p>Team JADE</p>
                         <p>All the participants</p>
                     </div>
+                  -->
                 </div>
             </footer>
         </div>
