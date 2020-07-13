@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charset="UTF-8" />
         <title>AFM : Amitié Franco-Malgache | Accueil</title>
         <link rel="stylesheet" type="text/css" href="style/main.css" />
@@ -12,49 +13,42 @@
                 <!--Section Logo-->
                 <div class="logo"><img src="img/logo.png" /></div>
                 <h1>Amitié Franco-Malgache de Lorraine</h1>
-                <!--Menu de navigation-->
-                <nav>
-                    <ul>
-                        <li><a href="" class="selected">Accueil</a></li>
-                        <li><a href="pages/asso.html">L'association</a></li>
-                        <li><a href="pages/events.html">Évènements</a></li>
-                        <li><a href="pages/photos.html">Photos</a></li>
-                        <li><a href="pages/videos.html">Vidéos</a></li>
-                        <li><a href="pages/contact.html">Contact</a></li>
-                    </ul>
-                </nav>
             </header>
-            <!--Section Corps de page -->
+            <!--Menu de navigation-->
+            <nav>
+                  <a href="" class="selected">Accueil</a>
+                  <a href="pages/asso.html">L'association</a>
+                  <a href="pages/real.html">Réalisations</a>
+                  <a href="pages/events.html">Évènements</a>
+                  <a href="pages/contact.html">Contact</a>
+            </nav>
+            <!--Section Corps de Page -->
             <section>
-                <!-- Section des actualités -->
+                <!-- Section des Actualités -->
                 <article>
                     <div class="offer">
-                        <h2>Dernières actualités</h2>
+                        <h2>Dernières Actualités</h2>
                         <!-- Contenu de l'actualités animées en slideshow -->
                         <div class="slideshow-container">
 
                          <!-- Les images avec largeur 100% et légende -->
                          <div class="mySlides fade">
-                           <div class="numbertext">1 / 4</div>
-                           <img src="img/slide1.jpg" style="width:100%" />
+                           <a href="pages/events.html"><img src="img/slide1.jpg" style="width:100%" /></a>
                            <div class="text">Caption One</div>
                          </div>
 
                          <div class="mySlides fade">
-                           <div class="numbertext">2 / 4</div>
-                           <img src="img/slide2.jpg" style="width:100%" />
+                           <a href="pages/events.html"><img src="img/slide2.jpg" style="width:100%" /></a>
                            <div class="text">Caption Two</div>
                          </div>
 
                          <div class="mySlides fade">
-                           <div class="numbertext">3 / 4</div>
-                           <img src="img/slide3.jpg" style="width:100%" />
+                           <a href="pages/events.html"><img src="img/slide3.jpg" style="width:100%" /></a>
                            <div class="text">Caption Three</div>
                          </div>
 
                          <div class="mySlides fade">
-                           <div class="numbertext">4 / 4</div>
-                           <img src="img/slide4.jpg" style="width:100%" />
+                           <a href="pages/events.html"><img src="img/slide4.jpg" style="width:100%" /></a>
                            <div class="text">Caption Four</div>
                          </div>
 
@@ -77,7 +71,7 @@
                     <script src="script/main.js"></script>
 
                     <!-- Section des articles -->
-                    <h2>Les derniers évènements</h2>
+                    <h2>Derniers Évènements</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna ligula, auctor id feugiat ut, lobortis ut mi. Morbi et consequat metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis iaculis elit ac tortor rhoncus vulputate. Proin iaculis, elit et placerat elementum, lectus est eleifend eros, non scelerisque nunc dui et ipsum. Donec rhoncus neque sit amet urna dignissim, vitae porta sem tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla commodo eu purus sed egestas. Vestibulum eget elit lectus. Nunc blandit ut tellus auctor hendrerit. Quisque eleifend ex vitae nulla gravida, a eleifend risus semper. Vestibulum eros libero, vulputate sit amet bibendum tincidunt, dictum quis nisl. Nam eget nulla lacus. Maecenas ac ante blandit ex mollis luctus. </p>
                 </article>
 
@@ -92,7 +86,11 @@
 
                     <div class="about columns">
                         <h3 class="columns_title">À propos de</h3>
-                        <ul><li><a href="pages/about.html">Notre association</a></li></ul>
+                        <ul>
+                          <li><a href="pages/asso.html">Notre association</a></li>
+                          <li><a href="pages/real.html">Nos réalisations</a></li>
+                          <li><a href="pages/events.html">Nos évènements</a></li>
+                        </ul>
                     </div>
                     <div class="contact columns">
                         <h3 class="columns_title">Nous contacter</h3>
